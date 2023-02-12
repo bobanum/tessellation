@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.interface {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+#app {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+svg {
+  height: 90vmin;
+}
+
+g {
+  stroke: red;
+  stroke-width: 2px;
+  fill-opacity: 1;
+}
+
+use {
+  fill-opacity: 0.2;
+}
